@@ -9,8 +9,6 @@ incBtn.onclick = function () {
   value.innerText = initialValue;
 };
 decBtn.onclick = function () {
-  if (value.innerText > 0) {
-    initialValue -= 1;
-    value.innerText = initialValue;
-  }
+  initialValue -= 1;
+  value.innerText = initialValue;
 };
